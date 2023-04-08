@@ -26,7 +26,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-.mh-attendance.venv/
+.mh-attendance-venv/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -141,3 +141,5 @@ mh-attendance-venv/bin/pip3.11
 mh-attendance-venv/bin/python
 mh-attendance-venv/bin/python3
 mh-attendance-venv/bin/python3.11
+config_tmp.json
+config_template.json
