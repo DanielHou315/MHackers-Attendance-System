@@ -143,3 +143,4 @@ mh-attendance-venv/bin/python3
 mh-attendance-venv/bin/python3.11
 config_tmp.json
 config_template.json
+config.json
