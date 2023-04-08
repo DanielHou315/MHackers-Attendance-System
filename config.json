@@ -1,0 +1,11 @@
+{
+    "google_config": {
+        "api_token": "ajefjklalkjekfj",
+    },
+    "tinyurl_config": {
+        "api_token": 
+    },
+    "script_config":{
+        "naming_scheme":"mhackers<month>-<day>",
+    }
+}

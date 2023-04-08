@@ -26,6 +26,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.mh-attendance.venv/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -127,3 +128,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+token.json
+mh-attendance-venv/pyvenv.cfg
+mh-attendance-venv/bin/activate
+mh-attendance-venv/bin/activate.csh
+mh-attendance-venv/bin/activate.fish
+mh-attendance-venv/bin/Activate.ps1
+mh-attendance-venv/bin/normalizer
+mh-attendance-venv/bin/pip
+mh-attendance-venv/bin/pip3
+mh-attendance-venv/bin/pip3.11
+mh-attendance-venv/bin/python
+mh-attendance-venv/bin/python3
+mh-attendance-venv/bin/python3.11
