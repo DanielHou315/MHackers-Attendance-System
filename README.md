@@ -16,7 +16,7 @@ This is a script created for Michigan Hackers to track attendance of its members
 2. Register a TinyURL API Token in [Dashboard](https://tinyurl.com/app/settings/api). *Make Sure you give it Create and Update TinyURL Permission*. You will ONLY BE SHOWN API TOKEN ONCE. Make sure you copy the API key and replace the <TINYURL_API_KEY> field in the config.json file. The script will be able to read the config file and use the api token you provided. 
 
 ## Google Cloud Configuration
-
+Follow Google's [GCP Setup Guide for Python](https://developers.google.com/forms/api/quickstart/python)
 
 # Script Configuration
 
