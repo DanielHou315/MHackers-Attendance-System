@@ -39,8 +39,8 @@ def new_form_sheet():
     SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 
     creds = None
-    if os.path.exists('credentials.json'):
-        flow = InstalledAppFlow.from_client_secrets_file('credentials.json', SCOPES)
+    if os.path.exists('g_credentials.json'):
+        flow = InstalledAppFlow.from_client_secrets_file('g_credentials.json', SCOPES)
         creds = flow.run_local_server(port=0)
     elif os.path.exists('token.pickle'):
         with open('token.pickle', 'rb') as token:
