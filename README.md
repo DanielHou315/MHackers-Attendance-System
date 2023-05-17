@@ -18,7 +18,7 @@ This is a script created for Michigan Hackers to track attendance of its members
 ## Google Cloud Configuration
 Follow Google's [GCP Setup Guide for Python](https://developers.google.com/forms/api/quickstart/python)
 
-# Script Configuration
+## Script Configuration
 
 3. Run the install.sh script to install a virtual environment within the repository folder and install the required packages. You can view the list of packages used for this script in requirements.txt. The default virtual environment directory is added to the gitignore file, so it won't be uploaded to your choice of git service. You can manually remove that in the .gitignore file if you choose to do so. 
 
