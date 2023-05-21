@@ -24,7 +24,10 @@ Follow Google's [GCP Setup Guide for Python](https://developers.google.com/forms
 
 On MacOS or Linux, Run the script by 
 ```
-./install.sh
+python3 -m venv ./.mh-attendance-venv
+source ./.mh-attendance-venv/bin/activate
+python3 -m pip install -r requirements.txt
+deactivate
 ```
 
 If a script does not have execution permission, run
@@ -38,20 +41,19 @@ On Windows, this probably works, although not guaranteed:
  bash ./install.sh
 ```
 
-To verify the install, run 
-```
-./verify_install.sh
-```
-
 4. To run the script to create a new form, run 
 ```
-./new_form.sh
+source ./.mh-attendance-venv/bin/activate
+python3 new_form.py
+deactivate
 ```
 This runs the script in the virtual environment created within the repo. When the form is created, the shortened URL will be shown to you in Terminal. If there is an error from either Google or TinyURL, it will display the error message. 
 
 4. To run the script to merge forms (STILL IN DEVELOPMENT), run 
 ```
-./merge_form.sh
+source ./.mh-attendance-venv/bin/activate
+python3 merge_form.py
+deactivate
 ```
 This runs the script in the virtual environment created within the repo. This script will merge all forms within given Google Drive folder to update attendance numbers in a Master form. 
 
