@@ -1,5 +1,7 @@
 # MHackers-Attendance-System
-Michigan Hackers Attendance Tracking Scripts
+Michigan Hackers Attendance Tracking Scripts.
+
+**It is still much of a work in progress**
 
 This is a script created for Michigan Hackers to track attendance of its members. It uses services from Google LLC. and TinyURL LLC. This script could be easily adapted to other 
 
@@ -20,27 +22,27 @@ Follow Google's [GCP Setup Guide for Python](https://developers.google.com/forms
 
 ## Script Configuration
 
-3. Run the install.sh script to install a virtual environment within the repository folder and install the required packages. You can view the list of packages used for this script in requirements.txt. The default virtual environment directory is added to the gitignore file, so it won't be uploaded to your choice of git service. You can manually remove that in the .gitignore file if you choose to do so. 
+3. Run the install.sh script to install a virtual environment within this directory and install the required packages. You can view the list of packages used for this script in requirements.txt. The default virtual environment directory is added to the gitignore file, so it won't be uploaded to your choice of git service. You can manually remove that in the .gitignore file if you choose to do so. 
 
-On MacOS or Linux, Run the script by 
+On macOS or Linux, Run the script by 
 ```
 python3 -m venv ./.mh-attendance-venv
 source ./.mh-attendance-venv/bin/activate
 python3 -m pip install -r requirements.txt
 deactivate
 ```
+On Windows, rename ```install.sh``` to ```install.bat``` and run it (NOT TESTED YET). 
 
-If a script does not have execution permission, run
+If a script does not have execution permission, on macOS and Linux, run
 ```
 chmod +x install.sh       # or use any other .sh file names
 ```
-this adds execution permission to the script file, if it doesn't already have one
+this adds execution permission to the script file, if it doesn't already have one.
 
 On Windows, this probably works, although not guaranteed: 
 ```
  bash ./install.sh
 ```
-
 4. To run the script to create a new form, run 
 ```
 source ./.mh-attendance-venv/bin/activate
